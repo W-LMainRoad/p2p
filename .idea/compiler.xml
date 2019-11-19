@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="p2p-httpClient" />
+        <module name="p2p-pay" />
+        <module name="p2p-exterface" />
+        <module name="p2pQRCode" />
+        <module name="p2p-web" />
+        <module name="p2p-common" />
+        <module name="p2p-mybatisGenerator" />
+        <module name="p2p-timer" />
+        <module name="p2p-dataservice" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="p2p-common" target="1.8" />
+      <module name="p2p-dataservice" target="1.8" />
+      <module name="p2p-exterface" target="1.8" />
+      <module name="p2p-httpClient" target="1.5" />
+      <module name="p2p-mybatisGenerator" target="1.8" />
+      <module name="p2p-parent" target="1.8" />
+      <module name="p2p-pay" target="1.8" />
+      <module name="p2p-timer" target="1.8" />
+      <module name="p2p-web" target="1.8" />
+      <module name="p2pQRCode" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

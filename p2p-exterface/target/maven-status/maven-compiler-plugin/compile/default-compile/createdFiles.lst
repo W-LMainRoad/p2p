@@ -1,0 +1,17 @@
+com\zc\p2p\model\user\FinanceAccount.class
+com\zc\p2p\service\loan\LoanInfoService.class
+com\zc\p2p\service\loan\RechargeRecordService.class
+com\zc\p2p\service\loan\IncomeRecordService.class
+com\zc\p2p\service\user\FinanceAccountService.class
+com\zc\p2p\model\vo\PageinatinoVO.class
+com\zc\p2p\model\config\Config.class
+com\zc\p2p\model\loan\RechargeRecord.class
+com\zc\p2p\service\loan\OnlyNumberService.class
+com\zc\p2p\model\loan\BidInfo.class
+com\zc\p2p\model\user\User.class
+com\zc\p2p\model\vo\ResultObject.class
+com\zc\p2p\model\loan\IncomeRecord.class
+com\zc\p2p\service\loan\BidInfoService.class
+com\zc\p2p\model\loan\LoanInfo.class
+com\zc\p2p\model\vo\BidUserTop.class
+com\zc\p2p\service\user\UserService.class
