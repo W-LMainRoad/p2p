@@ -121,7 +121,7 @@ public class AlipayController {
             model.addAttribute("signVerified","FAIL");
         }
 
-        model.addAttribute("pay_p2p_return_url","http://localhost:8081/p2p/loan/alipayBack");
+        model.addAttribute("pay_p2p_return_url","http://39.107.108.113:8080/p2p/loan/alipayBack");
 
         return "toP2P";
     }

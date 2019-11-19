@@ -95,7 +95,7 @@ public class RechargeController {
 
         if (addRechargeCount > 0){
             //向pay工程的支付方式传递参数
-            model.addAttribute("p2p_pay_alipay_url","http://localhost:9090/pay/ali/alipay");
+            model.addAttribute("p2p_pay_alipay_url","http://39.107.108.113:9090/pay/ali/alipay");
             model.addAttribute("rechargeNo",rechargeNo);//充值订单号
             model.addAttribute("rechargeMoney",rechargeMoney);//充值金额
             model.addAttribute("subject","支付宝充值");
@@ -122,7 +122,7 @@ public class RechargeController {
             paramMap.put("out_trade_no",out_trade_no);
 
             //调用pay工程的订单查询接口  ->  返回订单的状态
-            String jsonString = HttpCilentUtils.doPost("http://localhost:9090/pay/ali/alipayQuery",paramMap);
+            String jsonString = HttpCilentUtils.doPost("http://39.107.108.113:9090/pay/ali/alipayQuery",paramMap);
 
             //使用fastjson解析json字符串,解析成json对象
             JSONObject jsonObject = JSONObject.parseObject(jsonString);
