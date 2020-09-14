@@ -14,7 +14,7 @@
         <spring-version>4.3.9.RELEASE</spring-version>
         <servlet-api-version>3.1.0</servlet-api-version>
         <jstl-api-version>1.2</jstl-api-version>
-        <taglibs-standard-version>1.2.1</taglibs-standard-version>
+        <taglibs-standard-version>1.2.5</taglibs-standard-version>
         <mysql-connector-java-version>5.1.43</mysql-connector-java-version>
         <druid-version>1.1.1</druid-version>
         <mybatis-version>3.4.1</mybatis-version>
