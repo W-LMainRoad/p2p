@@ -27,7 +27,7 @@
         <dubbo-version>2.6.0</dubbo-version>
         <commons-lang3-version>3.4</commons-lang3-version>
         <jackson-version>2.7.3</jackson-version>
-        <commons-io-version>2.5</commons-io-version>
+        <commons-io-version>2.7</commons-io-version>
         <httpclient-version>4.5.2</httpclient-version>
         <fastjson-version>1.2.36</fastjson-version>
     </properties>
