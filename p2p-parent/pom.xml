@@ -24,7 +24,7 @@
         <log4j-version>2.3</log4j-version>
         <spring-data-redis-version>1.8.4.RELEASE</spring-data-redis-version>
         <jedis-version>2.9.0</jedis-version>
-        <dubbo-version>2.6.0</dubbo-version>
+        <dubbo-version>2.6.9</dubbo-version>
         <commons-lang3-version>3.4</commons-lang3-version>
         <jackson-version>2.7.3</jackson-version>
         <commons-io-version>2.5</commons-io-version>
